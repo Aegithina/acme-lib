@@ -29,7 +29,7 @@ use crate::persist::{Persist, PersistKey, PersistKind};
 use crate::util::{base64url, read_json};
 use crate::Result;
 
-mod auth;
+pub mod auth;
 
 pub use self::auth::{Auth, Challenge};
 
